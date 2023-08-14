@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">
+            Todo List
+        </h1>
+    </header>
+    <main class="main">
+        <div class="sidebar">
+            <h1 class="project-title">Projects</h1>
+            <hr>
+            <div class="project-list">
+                <button class="project-item">
+                    <div class="project-name">Test1</div>
+                    <div class="project-cancel">X</div>
+                </button>
+            </div>
+            <button class="add-project-button">
+                + Add Project
+            </button>
+            <div class="add-project-popup">
+                <input
+                class="add-project-popup-input"
+                id="add-project-popup-input"
+                type="text"
+                />
+                <div class="add-project-popup-buttons">
+                    <button class="button-add-project-popup">
+                        Add
+                    </button>
+                    <button class="button-cancel-project-popup">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container"></div>
+    </main>
+</body>
+</html>
