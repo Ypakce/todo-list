@@ -51,10 +51,10 @@ button {
     margin-bottom: 20px;
 }
 
-.project-list {
+.project-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .project-item {
@@ -75,6 +75,7 @@ button {
 
 .selected {
     background-color: rgba(93, 110, 131, 0.2);
+    font-weight: bold;
 }
 
 .add-project-button {
@@ -92,6 +93,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    display: none;
 }
 
 .sidebar input {
@@ -99,6 +101,7 @@ button {
     padding: 5px;
     font-size: 1rem;
     border: none;
+    width: calc(100% - 10px);
 }
 
 .add-project-popup-buttons{
